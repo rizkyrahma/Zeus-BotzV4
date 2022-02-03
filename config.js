@@ -47,12 +47,12 @@ global.APIKeys = { // APIKey nya disini
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'pais',
-  'https://api.xteam.xyz': '0',
+  'https://api.xteam.xyz': 'APIKEYS',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
-  'https://api.lolhuman.xyz': '0',
+  'https://api.lolhuman.xyz': 'APIKEYS',
   'https://leyscoders-api.herokuapp.com': 'DestaPrasApi',
-  'https://melcanz.com': '0',
+  'https://melcanz.com': 'APIKEYS',
   'https://dhnjing.xyz': 'LitRHap',
   'http://xosfor.herokuapp.com': '8uhDyCud',
 }
@@ -75,7 +75,7 @@ global.donate = `
 ╰────` //UBAH JADI NOMER MU
 
 // Sticker WM
-global.packname = 'Tohru-Bot'
+global.packname = 'Wabot-Tsb01'
 global.author = '◈ Made by The.sad.boy01'
 
 global.wait = '_*tunggu sedang di proses...*_'
