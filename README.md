@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://telegra.ph/file/ebbc8ec67e31d802d95e5.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">Wabot-Tsb</h1>
+<h1 align="center">Wabot-Tsb01</h1>
 
 
 ## Recode BY : [`The.sad.boy01`](https://github.com/Kangsad01)
@@ -9,7 +9,7 @@
 
 ## FOR DEPLOY HEROKU USER
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/wabot-Tsb)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/Wabot-Tsb01)
 
 ### Instal Buildpack
 * heroku/nodejs
@@ -18,11 +18,11 @@
 
 ## FOR DEPLOY RAILWAY USER
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FKangsad01%2Fwabot-tsb)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FKangsad01%2FWabot-Tsb01)
 
 ## FOR DEPLOY REPLIT USER
 
-[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Kangsad01/wabot-tsb)
+[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Kangsad01/Wabot-Tsb01)
 ```cmd
 Open Console
 ------------
@@ -45,8 +45,8 @@ Click Run
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Kangsad01/wabot-Tsb
-cd wabot-Tsb
+git clone https://github.com/Kangsad01/Wabot-Tsb01
+cd Wabot-Tsb01
 npm i
 npm update
 node .
@@ -57,7 +57,7 @@ node .
 ## UNTUK PENGGUNA TERMUX
 ```bash
 termux-setup-storage
-git clone https://github.com/Kangsad01/wabot-Tsb --branch termux
+git clone https://github.com/Kangsad01/Wabot-Tsb01 --branch termux
 bash install.sh
 npm install -g npm@6.14.14
 npm i @adiwajshing/baileys@latest
