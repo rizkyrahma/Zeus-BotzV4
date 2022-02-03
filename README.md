@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://telegra.ph/file/ebbc8ec67e31d802d95e5.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Wabot-Tsb01</h1>
 
