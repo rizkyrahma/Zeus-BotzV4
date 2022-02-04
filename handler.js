@@ -675,7 +675,7 @@ module.exports = {
             } finally {
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat datang, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : '') :
                 (chat.sBye || this.bye || conn.bye || 'Sampai jumpa, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-              global.img = await (await fetch('https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg')).buffer()
+              let img = await (await fetch('https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg')).buffer()
 
               let wel = fs.readFileSync('./thumb/images (2).jpeg')
 
