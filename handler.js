@@ -807,8 +807,8 @@ Contoh:
 #daftar Tohru bot.17`,
     nsfw: 'NSFW tidak aktif'
   }[type]
-  if (msg) return conn.send2Button(m.chat, msg, wm, 'Pemilik Bot', '.rowner', 'Rules', '.rulesr', m)
-  
+  if (msg) return conn.send2Button(m.chat, msg, wm, 'Pemilik Bot', '.rowner', 'Rules', '.rules', m)
+}
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
   fs.unwatchFile(file)
