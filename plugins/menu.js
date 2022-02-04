@@ -309,13 +309,13 @@ ${readMore}
     
     let nama = await conn.getName(m.sender)
     let fcon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${nama}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-    
+    let foto = await (await fetch('https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg')).buffer()
     let thumb = fs.readFileSync(`./thumb/${pickRandom(['images','images (1)','images (2)','images (3)','images (4)','images (5)','images (6)','images (7)','images (8)','images (9)'])}.jpeg`)
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    /*let res = await fetch(global.API('xteam', '/randomimage/wallpaper', {}, 'APIKEY'))
+    let res = await fetch(global.API('xteam', '/randomimage/wallpaper', {}, 'APIKEY'))
     if (!res.ok) throw eror
     let go = await res.buffer()
-    if (!go) throw go*/
+    if (!go) throw go
     //conn.send3ButtonLoc(m.chat, img, text.trim(), wm, '𝗣𝗲𝗺𝗶𝗹𝗶𝗸 𝗕𝗼𝘁', `${_p}owner`, '𝗗𝗼𝗻𝗮𝘀𝗶', `${_p}donasi`, `𝗥𝘂𝗹𝗲𝘀`, `${_p}rules`, m)
     await conn.sendMessage(m.chat, { "contentText": text, "footerText": wm,
 "buttons": [
@@ -335,7 +335,7 @@ ${readMore}
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
-            "jpegThumbnail": thumb,
+            "jpegThumbnail": go,
   }}, 'buttonsMessage', {
             quoted: fcon,
             contextInfo: {
@@ -344,7 +344,7 @@ ${readMore}
             body: 'Tohru Bot new Version By The.sad.boy01',
             description: 'Tohru Bot new Version By The.sad.boy01',
             mediaType: 2,
-          thumbnail: thumb,
+          thumbnail: foto,
          mediaUrl: 'https://youtu.be/Hp8Kw4--OyQ'
         }
      }
