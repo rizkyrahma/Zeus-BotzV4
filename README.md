@@ -3,9 +3,14 @@
 </p>
 <h1 align="center">Wabot-Tsb01</h1>
 
-
-## Recode BY : [`The.sad.boy01`](https://github.com/Kangsad01)
-
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kangsad01/Wabot-Tsb01?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Kangsad01/Wabot-Tsb01?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/botstylee/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Kangsad01/Wabot-Tsb01?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Kangsad01/Wabot-Tsb01?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/issues"><img title="Issues" src="https://img.shields.io/github/issues/Kangsad01/Wabot-Tsb01?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Kangsad01/Wabot-Tsb01?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Kangsad01/Wabot-Tsb01?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Kangsad01/Wabot-Tsb01/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Kangsad01/Wabot-Tsb01?label=PullRequest&color=red&style=flat-square"></a>
 
 ## FOR DEPLOY HEROKU USER
 
