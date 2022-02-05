@@ -1,6 +1,9 @@
 <p align="center">
     <img src="https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
+
+---
+
 <h1 align="center">Wabot-Tsb01</h1>
 
 <a href="https://github.com/Kangsad01/Wabot-Tsb01/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kangsad01/Wabot-Tsb01?label=Forks&color=blue&style=flat-square"></a>
@@ -12,6 +15,12 @@
 <a href="https://github.com/Kangsad01/Wabot-Tsb01/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Kangsad01/Wabot-Tsb01?label=PullRequest&color=success&style=flat-square"></a>
 <a href="https://github.com/Kangsad01/Wabot-Tsb01/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Kangsad01/Wabot-Tsb01?label=PullRequest&color=red&style=flat-square"></a>
 
+---
+## Whatsapp group
+
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FYcSmBK4qVW3yvna8Yyzu3)
+
+---
 ## FOR DEPLOY HEROKU USER
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/Wabot-Tsb01)
@@ -21,10 +30,12 @@
 * https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 * https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
 
+---
 ## FOR DEPLOY RAILWAY USER
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FKangsad01%2FWabot-Tsb01)
 
+---
 ## FOR DEPLOY REPLIT USER
 
 [![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Kangsad01/Wabot-Tsb01)
@@ -38,10 +49,8 @@ Open Console
 -------------
 Click Run
 ```
-## Whatsapp group
 
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FYcSmBK4qVW3yvna8Yyzu3)
-
+---
 ## UNTUK PENGGUNA WINDOWS/VPS/RDP
 
 * Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
@@ -57,8 +66,7 @@ npm update
 node .
 ```
 
----------
-
+---
 ## UNTUK PENGGUNA TERMUX
 ```bash
 termux-setup-storage
@@ -69,8 +77,7 @@ npm i @adiwajshing/baileys@latest
 npm start
 ```
 
----------
-
+---
 ## Arguments `node . [--options] [<session name>]`
 
 #### Contoh: `node . --self --restrict --autoread`
@@ -160,3 +167,4 @@ conn.logger.level = 'debug'
 ----|----|----
 [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Kangsad01](https://github.com/Kangsad01)
  Penulis / Pencipta | Penulis ulang Ke-1 | Penulis ulang Ke-2
+---
