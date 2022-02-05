@@ -155,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'info') tags = {
     'info': '𝗜𝗻𝗳𝗼'
   }
-  if (teks == 'dewasa', 'nsfw') tags = {
+  if (teks == 'dewasa') tags = {
     'dewasa': '𝗗𝗲𝘄𝗮𝘀𝗮'
   }
   if (teks == 'tanpakategori') tags = {
