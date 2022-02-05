@@ -25,7 +25,7 @@ https://github.com/amiruldev20
 The.sad.boy01: 
 https://github.com/Kangsad01
 Kanna:
-http://wa.me/6283143393763
+https://github.com/kannachann
 Putra:
 https://github.com/putragans9
 pasyaganz:
