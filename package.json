@@ -14,20 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kangsad01/wabot-tsb.git"
+    "url": "git+https://github.com/Kangsad01/wabot-tsb01.git"
   },
   "keywords": [
     "whatsapp-bot",
-    "wabot-Tsb",
+    "wabot-Tsb01",
     "wabot-aq",
     "stikeribot",
     "games-wabot"
   ],
   "author": "The.sad.boy01",
   "bugs": {
-    "url": "https://github.com/Kangsad01/wabot-Tsb/issues"
+    "url": "https://github.com/Kangsad01/wabot-Tsb01/issues"
   },
-  "homepage": "https://github.com/Kangsad01/wabot-Tsb",
+  "homepage": "https://github.com/Kangsad01/wabot-Tsb01",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.54.0",
