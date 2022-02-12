@@ -20,7 +20,7 @@ let handler = async (m, { conn, isROwner, usedPrefix, command, text }) => {
         if (stderr.trim()) m.reply(stderr)
     }
 }
-handler.help = ['getplugin'].map(v => v + ' <text>')
+handler.help = ['getlib'].map(v => v + ' <text>')
 handler.tags = ['owner']
 handler.command = /^(getlib|gl)$/i
 
