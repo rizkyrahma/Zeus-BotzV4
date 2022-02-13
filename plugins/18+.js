@@ -6,17 +6,7 @@ let handler  = async (m, { conn }) => {
 handler.help = ['filebokep']
 handler.tags = ['dewasa']
 handler.command = /^(filebokep)$/i
-handler.owner = false
-handler.mods = false
 handler.premium = true
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.limit = false
 
 module.exports = handler
 
