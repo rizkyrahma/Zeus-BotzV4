@@ -1,3 +1,4 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 require('./config.js')
 const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
@@ -65,7 +66,7 @@ loadDatabase()
 
 global.conn = new WAConnection()
 conn.version = [2, 2143, 3]
-conn.browserDescription = ['Hosted by Tohru botz', 'Safari', '3.0']
+conn.browserDescription = ['Hosted by The.sad.boy01', 'Firefox', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
