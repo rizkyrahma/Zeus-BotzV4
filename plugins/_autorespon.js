@@ -14,7 +14,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Stikerinbotnew tidak aktif' : banned ? 'kamu dibanned' : 'Stikerinbotnew disini',
+                isBanned ? `${conn.user.name} tidak aktif` : banned ? 'kamu dibanned' : `${conn.user.name} disini`,
                 wm,
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
@@ -32,7 +32,7 @@ handler.all = async function (m, { isBlocked }) {
 ├ 14 Hari / Rp 10,000
 ├ 30 Hari / Rp 15,000
 └────
-https://github.com/Kangsad01/Stikerinbotnew
+https://github.com/Kangsad01/Wabot-Tsb01
 `.trim(), wm, 'Pemilik Bot', ',owner', m)
     }
 
@@ -64,7 +64,7 @@ https://github.com/Kangsad01/Stikerinbotnew
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
         totaluser = Object.keys(db.data.users)
-        await this.setStatus(`Aktif selama ${uptime} │ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} │ total user : ${totaluser.length} │ Stikerinbotnew`).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} │ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} │ total user : ${totaluser.length} │ ◈ Made by The.sad.boy01`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
