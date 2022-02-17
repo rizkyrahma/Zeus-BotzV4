@@ -1,17 +1,17 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.wm = `◈ Made by The.sad.boy01` //UBAH JADI NAMAMU
-global.botwm = `◈ Made by The.sad.boy01` //UBAH JADI NAMAMU
+global.wm = `◈ ZeusBotz` //UBAH JADI NAMAMU
+global.botwm = `◈ ZeusBotzV3` //UBAH JADI NAMAMU
 
-global.name = 'Tohru Botz'// nama bot
-global.dev = `The.sad.boy01`// developer
+global.name = 'Zeus Botz'// nama bot
+global.dev = `Pilar`// developer
 
 
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP']
 //kalo mau ubah nama owner nya ubah di ../plugins/creator.js
-global.owner = ['62895336282144', '6281319944687', '6283143393763', '6288217277973', '6281334177340', '6283128734012', '6289504585790', '16102156479', '6285157489446'] // Letakan nomor kamu disini
+global.owner = ['6289625556161','62896255561617'] // Letakan nomor kamu disini
 global.mods = ['62895336282144', '6281319944687', '6287878505740', '6283128734012'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -63,20 +63,20 @@ global.ig = `https://instagram.com/the.sad.boy01` //UBAH JADI LINK IG LU
 //donasi
 global.donate = `
 ╭─「  Donasi • Pulsa 」
-├❒ tre [+62 895-3362-82144]
+├❒ tre [+6289625556161]
 ╰────
 
 ╭─「  Donasi • Non Pulsa 」
-├❒ Gopay [0895336282144]
+├❒ Dana & Ovo [6289625556161]
 ├❒ saweria [https://saweria.co/thesadboy01]
 ╰────
 ╭─「  Hubungi 」
-├❒ Ingin donasi? Wa.me/62895336282144
+├❒ Ingin donasi? Wa.me/6289625556161
 ╰────` //UBAH JADI NOMER MU
 
 // Sticker WM
-global.packname = 'Wabot-Tsb01'
-global.author = '◈ Made by The.sad.boy01'
+global.packname = 'ZeusBotz'
+global.author = '◈ ZeusBotzV3'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='
@@ -84,7 +84,7 @@ global.fla2 = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=t
 global.img = fs.readFileSync('./src/img2.jpg')
 global.CanvasAPI = '';
 
-global.multiplier = 10 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 80 // Semakin tinggi, semakin sulit naik level
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
