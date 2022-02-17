@@ -32,7 +32,7 @@ module.exports = {
         if (user) {
             if (!isNumber(user.healt)) user.healt = 100
             if (!isNumber(user.stamina)) user.stamina = 100
-            if (!isNumber(user.money)) user.money = 0
+            if (!isNumber(user.money)) user.money = 1000
             
             if (!isNumber(user.trofi)) user.trofi= 0
             if (!user.rtrofi) user.rtrofi = 'Perunggu'
@@ -212,7 +212,7 @@ module.exports = {
             fortress: 0,
             makanan: 0,
             shield: false,
-            money: 0,
+            money: 1000,
             diamond: 0,
             iron: 0,
             emas: 0,
@@ -675,7 +675,7 @@ module.exports = {
             } finally {
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat datang, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : '') :
                 (chat.sBye || this.bye || conn.bye || 'Sampai jumpa, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-              let img = await (await fetch('https://i.ibb.co/3mRgmy9/Wabot-Tsb01.jpg')).buffer()
+              let img = await (await fetch('https://telegra.ph/file/f96eee5c2c75bd32c1f58.png')).buffer()
 
               let wel = fs.readFileSync('./thumb/images (2).jpeg')
 
@@ -690,7 +690,7 @@ module.exports = {
 await conn.sendMessage(jid, { "contentText": text, "footerText": wm,
 "buttons": [
 {buttonId: '.menu', buttonText: {displayText: 'Menu'}, type: 1},
-{buttonId: '.rowner', buttonText: {displayText: 'Owner'}, type: 1},
+{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1},
 {buttonId: '.rules', buttonText: {displayText: 'Rules Bot'}, type: 1}
 ],
 "headerType": "DOCUMENT", "documentMessage": {
@@ -706,7 +706,7 @@ await conn.sendMessage(jid, { "contentText": text, "footerText": wm,
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
             "jpegThumbnail": action === 'add' ? wel : lea,
-  }}, 'buttonsMessage', { quoted: false, contextInfo: { mentionedJid: [user], forwardingScore: 999, isForwarded: true, externalAdReply: { title: wm, body: 'Tohru Bot New Version', description: ' Crated By The.sad.boy01', mediaType: 2, thumbnail: img, mediaUrl: `https://youtu.be/Hp8Kw4--OyQ`}}})
+  }}, 'buttonsMessage', { quoted: false, contextInfo: { mentionedJid: [user], forwardingScore: 999, isForwarded: true, externalAdReply: { title: wm, body: 'Zeus Botz V3', description: ' Recode By Pilar', mediaType: 2, thumbnail: img, mediaUrl: `https://youtu.be/Hp8Kw4--OyQ`}}})
             }
           }
         }
@@ -716,7 +716,7 @@ await conn.sendMessage(jid, { "contentText": text, "footerText": wm,
       case 'demote':
         if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user sekarang bukan Admin')
         text = text.replace('@user', '@' + participants[0].split`@`[0])
-        if (chat.detect) this.send2ButtonLoc(jid, img, text, wm, '𝗠𝗲𝗻𝘂', '#menu', '𝗣𝗲𝗺𝗶𝗹𝗶𝗸 𝗕𝗼𝘁', '#rowner', null, {
+        if (chat.detect) this.send2ButtonLoc(jid, img, text, wm, '𝗠𝗲𝗻𝘂', '#menu', '𝗣𝗲𝗺𝗶𝗹𝗶𝗸 𝗕𝗼𝘁', '#owner', null, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
           }
@@ -806,10 +806,10 @@ pastikan data yang di isi valid, guna agar dapat berteman
 
 Contoh:
 #daftar namamu.umurmu
-#daftar Tohru bot.17`,
+#daftar manusia.18`,
     nsfw: 'NSFW tidak aktif'
   }[type]
-  if (msg) return conn.send2Button(m.chat, msg, wm, 'Pemilik Bot', '.rowner', 'Rules', '.rules', m)
+  if (msg) return conn.send2Button(m.chat, msg, wm, 'Pemilik Bot', '.owner', 'Rules', '.rules', m)
 }
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
