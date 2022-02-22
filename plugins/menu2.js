@@ -35,7 +35,6 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
     let tags = {
      'main': '𝗨𝘁𝗮𝗺𝗮',
     'game': '𝗚𝗮𝗺𝗲',
-    'rpg': '𝗥𝗽𝗴',
     'jadian': '𝗝𝗮𝗱𝗶𝗮𝗻',
     'xp': '𝗘𝘅𝗽 & 𝗟𝗶𝗺𝗶𝘁',
     'sticker': '𝗦𝘁𝗶𝗸𝗲𝗿',
@@ -96,7 +95,7 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
     let header = conn.menu.header || `⁙╭━━•›ꪶ ⸙ ━ ━ ━ ━ ꪶ ⸙‹•━━╮
 ⁙┃╭┈─────────────⩵࿐ཱི
 ⁙┃╰─── %category ───➤ ↶↷* 
-⁙├☆─〔  ᴛʜᴇ.ꜱᴀᴅ.ʙᴏʏ01〕 ──➤`
+⁙├☆─〔  Zeus Botz 〕 ──➤`
     let body   = conn.menu.body   || '⁙├〲 %cmd%islimit'
     let footer = conn.menu.footer || '⁙╰•☆°°°🕊°°°🕊°°°🕊°°°‹•━━╮'
     let after  = conn.menu.after  || '\n'
@@ -142,7 +141,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "62896255561617@s.whatsapp.net",
+      "businessOwnerJid": "6289255561617@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
@@ -156,9 +155,9 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
     throw e
   }
 }
-handler.help = ['command']
-handler.tags = ['main']
-handler.command = /^(commander|cmd|command)$/i
+handler.help = ['menu2']
+handler.tags = ['info']
+handler.command = /^(menu2|menukatalog|command)$/i
 module.exports = handler
 
 const more = String.fromCharCode(8206)
