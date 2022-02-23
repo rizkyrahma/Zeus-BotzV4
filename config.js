@@ -12,7 +12,7 @@ global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP']
 //kalo mau ubah nama owner nya ubah di ../plugins/creator.js
 global.owner = ['6289625556161','62896255561617'] // Letakan nomor kamu disini
-global.mods = ['62895336282144', '6281319944687', '6287878505740', '6283128734012'] // Moderator?
+global.mods = ['0'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -68,8 +68,8 @@ global.donate = `
 
 ╭─「  Donasi • Non Pulsa 」
 ├❒ Dana & Ovo [6289625556161]
-├❒ saweria [https://saweria.co/thesadboy01]
 ╰────
+
 ╭─「  Hubungi 」
 ├❒ Ingin donasi? Wa.me/6289625556161
 ╰────` //UBAH JADI NOMER MU
@@ -84,7 +84,7 @@ global.fla2 = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=t
 global.img = fs.readFileSync('./src/img2.jpg')
 global.CanvasAPI = '';
 
-global.multiplier = 80 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 120 // Semakin tinggi, semakin sulit naik level
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
