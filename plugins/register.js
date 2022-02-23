@@ -4,7 +4,7 @@ let Reg = /(.*)([.|])([0-9]*)$/i
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.db.data.users[m.sender]
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let pantek = 'https://telegra.ph/file/b65957f39a82395bb09d0.jpg'
+  let pantek = 'https://telegra.ph/file/f96eee5c2c75bd32c1f58.png'
   if (user.registered === true) {
     await conn.sendButton(m.chat, `Anda sudah terdaftar\nMau daftar ulang?\n ketik ${usedPrefix}unreg <SN|SERIAL NUMBER> \n\n jika anda lupa sn silahkan ketik ${usedPrefix}sn`, wm, 'Unregister', `${usedPrefix}unreg ${sn}`, m)
     throw 0
