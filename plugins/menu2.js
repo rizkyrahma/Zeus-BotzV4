@@ -157,7 +157,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
 }
 handler.help = ['menu2']
 handler.tags = ['info']
-handler.command = /^(menu2|menukatalog|command)$/i
+handler.command = /^(menu2|menu|command)$/i
 module.exports = handler
 
 const more = String.fromCharCode(8206)
