@@ -358,11 +358,11 @@ module.exports = {
           if (!('descUpdate' in chat)) chat.descUpdate = true
           if (!('delete' in chat)) chat.delete = true
           if (!('antiLink' in chat)) chat.antiLink = false
-          if (!('download' in chat)) chat.download = true
+          if (!('download' in chat)) chat.download = false
           if (!isNumber(chat.expired)) chat.expired = 0
           if (!('getmsg' in chat)) chat.getmsg = false
           if (!('stiker' in chat)) chat.stiker = false
-          if (!('viewonce' in chat)) chat.viewonce = true
+          if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
@@ -375,11 +375,11 @@ module.exports = {
           descUpdate: true,
           delete: true,
           antiLink: false,
-          download: true,
+          download: falsr,
           expired: 0,
           getmsg: false,
           stiker: false,
-          viewonce: true,
+          viewonce: false,
         }
         let settings = global.db.data.settings[this.user.jid]
         if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
@@ -387,13 +387,13 @@ module.exports = {
           if (!'anon' in settings) settings.anon = true
           if (!'anticall' in settings) settings.anticall = true
           if (!'antispam' in settings) settings.antispam = true
-          if (!'antitroli' in settings) settings.antitroli = true
+          if (!'antitroli' in settings) settings.antitroli = false
           if (!'autoupdatestatus' in settings) settings.autoupdatestatus = false
           if (!'backup' in settings) settings.backup = false
           if (!'buggc' in settings) settings.buggc = true
           if (!isNumber(settings.backupTime)) settings.backupTime = 0
           if (!'group' in settings) settings.group = false
-          if (!'jadibot' in settings) settings.jadibot = false
+          if (!'jadibot' in settings) settings.jadibot = true
           if (!'nsfw' in settings) settings.nsfw = true
           if (!'restrict' in settings) settings.restrict = false
           if (!isNumber(settings.status)) settings.status = 0
@@ -401,13 +401,13 @@ module.exports = {
           anon: true,
           anticall: true,
           antispam: true,
-          antitroli: true,
+          antitroli: false,
           autoupdatestatus: false,
           backup: false,
           buggc: true,
           backupTime: 0,
           group: false,
-          jadibot: false,
+          jadibot: true,
           nsfw: true,
           restrict: false,
           status: 0,
