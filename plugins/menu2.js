@@ -95,7 +95,7 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
     let header = conn.menu.header || `⁙╭━━•›ꪶ ⸙ ━ ━ ━ ━ ꪶ ⸙‹•━━╮
 ⁙┃╭┈─────────────⩵࿐ཱི
 ⁙┃╰─── %category ───➤ ↶↷* 
-⁙├☆─〔  Zeus Botz 〕 ──➤`
+⁙├☆─〔  Alam Botz 〕 ──➤`
     let body   = conn.menu.body   || '⁙├〲 %cmd%islimit'
     let footer = conn.menu.footer || '⁙╰•☆°°°🕊°°°🕊°°°🕊°°°‹•━━╮'
     let after  = conn.menu.after  || '\n'
@@ -128,7 +128,7 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${nama}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
   sumberImg = fs.readFileSync(`./src/logo.jpg`)
-  image = (await conn.prepareMessage('62896255561617@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
+  image = (await conn.prepareMessage('6285888083107@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   res = await conn.prepareMessageFromContent(m.chat, {
     "productMessage": {
       "product": {
@@ -141,7 +141,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6289255561617@s.whatsapp.net",
+      "businessOwnerJid": "6285888083107@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
