@@ -1,8 +1,8 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.wm = `◈ ZeusBotz` //UBAH JADI NAMAMU
-global.botwm = `◈ ZeusBotzV3` //UBAH JADI NAMAMU
+global.wm = `◈ AlamBotz` //UBAH JADI NAMAMU
+global.botwm = `◈ AlamBotzV3` //UBAH JADI NAMAMU
 
 global.name = 'Zeus Botz'// nama bot
 global.dev = `Pilar`// developer
@@ -11,8 +11,8 @@ global.dev = `Pilar`// developer
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP']
 //kalo mau ubah nama owner nya ubah di ../plugins/creator.js
-global.owner = ['6289625556161','62896255561617'] // Letakan nomor kamu disini
-global.mods = ['0'] // Moderator?
+global.owner = ['6285888083107','6285814079819'] // Letakan nomor kamu disini
+global.mods = ['6285888083107'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -75,8 +75,8 @@ global.donate = `
 ╰────` //UBAH JADI NOMER MU
 
 // Sticker WM
-global.packname = 'ZeusBotz'
-global.author = '◈ ZeusBotzV3'
+global.packname = '◈ AlamaBotz'
+global.author = '◈ AlamBotzV3'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='
